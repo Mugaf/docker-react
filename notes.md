@@ -8,3 +8,7 @@ using volume to immitate hot reload
 
 docker-compose up
 running docker with docker compose file
+
+docker build -t mugaf/frontend -f Dockerfile.dev . 
+docker run -it mugaf/frontend npm run test
+above commands to run test
